@@ -9,3 +9,5 @@ waveglow_256channels_universal_v5.pt
 tensorboard.png
 demo.wav
 Dockerfile
+.idea
+.vscode
