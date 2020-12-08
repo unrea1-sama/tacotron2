@@ -279,8 +279,6 @@ if __name__ == '__main__':
     torch.cuda.set_device(args.device)
     hparams = Hparams(args)
 
-    print(hparams)
-
     torch.backends.cudnn.enabled = hparams.cudnn_enabled
     torch.backends.cudnn.benchmark = hparams.cudnn_benchmark
 
